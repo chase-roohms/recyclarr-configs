@@ -397,6 +397,7 @@ radarr:
     base_url: !secret radarr_url
     api_key: !secret radarr_apikey
     replace_existing_custom_formats: true
+    delete_old_custom_formats: true
     quality_definition: # See: https://recyclarr.dev/wiki/yaml/config-reference/quality-definition/
     quality_profiles:
       - name: High-Quality HD
