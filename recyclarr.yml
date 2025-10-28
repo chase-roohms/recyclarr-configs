@@ -64,6 +64,9 @@ sonarr:
               - WEBRip-480p
               - WEBDL-480p
     custom_formats:
+      - assign_scores_to:
+          - name: High-Quality HD
+          - name: High-Quality Anime
       - trash_ids:
           # [No Category]
           - 6f808933a71bd9666531610cb8c059cc # BR-DISK (BTN)
@@ -353,7 +356,9 @@ radarr:
           - name: SDTV
           - name: Bluray-576p
           - name: Bluray-480p
-    custom_formats: # See: https://recyclarr.dev/wiki/yaml/config-reference/custom-formats/
+    custom_formats:
+      - assign_scores_to:
+          - name: High-Quality HD
       - trash_ids:
           # [No Category]
           - 5153ec7413d9dae44e24275589b5e944 # BHDStudio
