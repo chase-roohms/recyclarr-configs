@@ -64,7 +64,7 @@ sonarr:
               - WEBRip-480p
               - WEBDL-480p
     custom_formats:
-      trash_ids:
+      - trash_ids:
           # [No Category]
           - 6f808933a71bd9666531610cb8c059cc # BR-DISK (BTN)
           - 5d9fd1b1e06cd8a475462f40214b7df6 # FLUX
