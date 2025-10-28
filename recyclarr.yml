@@ -64,9 +64,6 @@ sonarr:
               - WEBRip-480p
               - WEBDL-480p
     custom_formats:
-      - assign_scores_to:
-          - name: High-Quality HD
-          - name: High-Quality Anime
       - trash_ids:
           # [No Category]
           - 6f808933a71bd9666531610cb8c059cc # BR-DISK (BTN)
@@ -314,6 +311,9 @@ sonarr:
           - e2315f990da2e2cbfc9fa5b7a6fcfe48 # LQ (Release Title)
           - 23297a736ca77c0fc8e70f8edd7ee56c # Upscaled
           - 47435ece6b99a0b477caf360e79ba0bb # x265 (HD)
+        assign_scores_to:
+            - name: High-Quality HD
+            - name: High-Quality Anime
     media_naming:
       series: plex-tvdb
       season: default
@@ -357,8 +357,6 @@ radarr:
           - name: Bluray-576p
           - name: Bluray-480p
     custom_formats:
-      - assign_scores_to:
-          - name: High-Quality HD
       - trash_ids:
           # [No Category]
           - 5153ec7413d9dae44e24275589b5e944 # BHDStudio
@@ -604,6 +602,8 @@ radarr:
           - 712d74cd88bceb883ee32f773656b1f5 # Sing-Along Versions
           - bfd8eb01832d646a0a89c4deb46f8564 # Upscaled
           - dc98083864ea246d05a42df0d05f81cc # x265 (HD)
+        assign_scores_to:
+            - name: High-Quality HD
     media_naming:
       folder: plex-tmdb
       movie:
