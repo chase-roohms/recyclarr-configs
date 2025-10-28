@@ -28,7 +28,7 @@ sonarr:
           - name: HDTV-720p
           - name: DVD
           - name: SDTV
-          - name: Blueray-576p
+          - name: Bluray-576p
           - name: 480p
             qualities:
               - Bluray-480p
@@ -57,7 +57,7 @@ sonarr:
           - name: HDTV-720p
           - name: DVD
           - name: SDTV
-          - name: Blueray-576p
+          - name: Bluray-576p
           - name: 480p
             qualities:
               - Bluray-480p
