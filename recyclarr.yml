@@ -351,8 +351,8 @@ radarr:
           - name: HDTV-720p
           - name: DVD
           - name: SDTV
-          - name: Blueray-576p
-          - name: Blueray-480p
+          - name: Bluray-576p
+          - name: Bluray-480p
     custom_formats: # See: https://recyclarr.dev/wiki/yaml/config-reference/custom-formats/
       - trash_ids:
           # [No Category]
