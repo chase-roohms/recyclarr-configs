@@ -160,6 +160,11 @@ sonarr:
           - 418f50b10f1907201b6cfdf881f467b7 # Anime Dual Audio
         assign_scores_to:
             - name: High-Quality Anime
+      - trash_ids:   # Unwanted Common
+          - d6e9318c875905d6cfb5bee961afcea9 # Language: Not-Original
+        assign_scores_to:
+            - name: High-Quality HD
+            - name: High-Quality Anime
     media_naming:
       series: plex-tvdb
       season: default
@@ -251,6 +256,10 @@ radarr:
           - 7357cf5161efbf8c4d5d0c30b4815ee2 # Obfuscated
           - 5c44f52a8714fdd79bb4d98e2673be1f # Retags
           - f537cf427b64c38c8e36298f657e4828 # Scene
+        assign_scores_to:
+            - name: High-Quality HD
+      - trash_ids:   # Unwanted Common
+          - d6e9318c875905d6cfb5bee961afcea9 # Language: Not-Original
         assign_scores_to:
             - name: High-Quality HD
     media_naming:
