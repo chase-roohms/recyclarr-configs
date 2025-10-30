@@ -4,6 +4,8 @@ sonarr:
     api_key: !secret sonarr_apikey
     replace_existing_custom_formats: true
     quality_definition: # See: https://recyclarr.dev/wiki/yaml/config-reference/quality-definition/
+      type: series
+      # preferred_ratio: 0.2 # Optional, sets the percentage between the minimum and maximum size
     quality_profiles:
       - name: High-Quality HD
         upgrade:
@@ -181,6 +183,8 @@ radarr:
     replace_existing_custom_formats: true
     delete_old_custom_formats: true
     quality_definition: # See: https://recyclarr.dev/wiki/yaml/config-reference/quality-definition/
+      type: movie
+      # preferred_ratio: 0.2 # Optional, sets the percentage between the minimum and maximum size
     quality_profiles:
       - name: High-Quality HD
         upgrade:
